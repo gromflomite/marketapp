@@ -2,8 +2,6 @@ package marketapp;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
-import java.sql.PreparedStatement;
-import java.util.Scanner;
 
 public class UpdateProductById {
 
@@ -13,7 +11,7 @@ public class UpdateProductById {
 		final String DBPASS = "qkIBD2UPuH";
 		final String DBURL = "jdbc:mysql://sql7.freesqldatabase.com/sql7337548";
 
-		final String SQLQUERY = "UPDATE producto SET nombre = ? WHERE id = ?;";
+		//final String SQLQUERY = "UPDATE producto SET nombre = ? WHERE id = ?;";
 
 		String productName = "";
 		int id = 0;
