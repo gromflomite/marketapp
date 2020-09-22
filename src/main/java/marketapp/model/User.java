@@ -14,7 +14,7 @@ public class User {
 		this.name = "";
 		this.password = "";
 		this.role = new Role(); 						// Role object
-		this.image = "https://picsum.photos/100";
+		this.image = "https://i.imgur.com/u3p3o3R.png";
 	}
 
 	public int getId() {

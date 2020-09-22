@@ -12,7 +12,7 @@ public class Product {
 		this.id = 0;
 		this.name = "";		
 		this.price = 0;
-		this.image = "https://picsum.photos/100";
+		this.image = "https://i.imgur.com/9Der3WG.jpg";
 	}
 
 	public Product(String name) {
